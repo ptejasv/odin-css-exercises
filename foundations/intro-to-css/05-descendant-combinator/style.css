@@ -1,1 +1,25 @@
 /* Add CSS Styling */
+
+/* combinator with type selectors */
+/* div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* combinator with class selectors */
+/* .container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* combine class and type selectors */ 
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
